@@ -42,62 +42,54 @@ The application follows a layered architecture with separate packages for:
 | Postman | API Testing |
 
 ---
-
 ## 🏗️ Project Structure
 
-EmployeeManagementSystem
-│
-├── src
-│   └── main
-│       ├── java
-│       │   └── pcodes.jpaproject.ems
-│       │       │
-│       │       ├── controller
-│       │       │   └── EmployeeController.java
-│       │       │
-│       │       ├── entity
-│       │       │   └── Employee.java
-│       │       │
-│       │       ├── model
-│       │       │   ├── EmployeeAddRequest.java
-│       │       │   └── EmployeeAddResponse.java
-│       │       │
-│       │       ├── repository
-│       │       │   └── EmployeeRepository.java
-│       │       │
-│       │       ├── service
-│       │       │   └── EmployeeService.java
-│       │       │
-│       │       └── EmployeeManagementSystemApplication.java
-│       │
-│       └── resources
-│           └── application.properties
-│
-├── .gitignore
-├── pom.xml
-└── README.md
+    EmployeeManagementSystem/
+    ├── src/
+    │   └── main/
+    │       ├── java/
+    │       │   └── pcodes.jpaproject.ems/
+    │       │       ├── controller/
+    │       │       │   └── EmployeeController.java
+    │       │       ├── entity/
+    │       │       │   └── Employee.java
+    │       │       ├── model/
+    │       │       │   ├── EmployeeAddRequest.java
+    │       │       │   └── EmployeeAddResponse.java
+    │       │       ├── repository/
+    │       │       │   └── EmployeeRepository.java
+    │       │       ├── service/
+    │       │       │   └── EmployeeService.java
+    │       │       └── EmployeeManagementSystemApplication.java
+    │       │
+    │       └── resources/
+    │           └── application.properties
+    │
+    ├── .gitignore
+    ├── pom.xml
+    └── README.md
 
 ---
 
 ## 🔄 Application Flow
 
-Client / Postman
-       │
-       ▼
-EmployeeController
-       │
-       ▼
-EmployeeService
-       │
-       ▼
-EmployeeRepository
-       │
-       ▼
-Spring Data JPA / Hibernate
-       │
-       ▼
-MySQL Database
-
+    Client / Postman
+          │
+          ▼
+    EmployeeController
+          │
+          ▼
+    EmployeeService
+          │
+          ▼
+    EmployeeRepository
+          │
+          ▼
+    Spring Data JPA / Hibernate
+          │
+          ▼
+    MySQL Database
+    
 ---
 
 ## 🗄️ Database
